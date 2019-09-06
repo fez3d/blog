@@ -16,8 +16,18 @@
 </p>
 
 <p>
+  <strong>Full name:</strong>
+  <%= @user.full_name %>
+</p>
+
+<p>
   <strong>Mobile phone:</strong>
   <%= @user.mobile_phone %>
+</p>
+
+<p>
+  <strong>Work Place:</strong>
+  <%= @user.work_place %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
